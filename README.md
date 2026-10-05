@@ -6,8 +6,8 @@ package, through `reticulate`.
 ## Installation
 
 ```r
-# install.packages("remotes")
-remotes::install_github("SelmanSzgn/funcastR")
+# install.packages("pak")
+pak::pak("SelmanSzgn/funcastR")
 ```
 Python and the `funcast` package are set up automatically by `reticulate`
 on first use.
