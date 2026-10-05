@@ -17,7 +17,7 @@ on first use.
 ```r
 library(funcastR)
 
-m <- funcast(K = 5L)
+m <- funcast(K=5, s=0.8)
 m <- fit(m, Y_past, Y_future, t_past, t_future)
 pred <- predict(m, Y_past_new)
 ```
