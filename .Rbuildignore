@@ -1,3 +1,4 @@
 ^\.Renviron$
 ^LICENSE\.md$
 ^test-run\.R$
+^Rplots\.pdf$

@@ -22,6 +22,16 @@ m <- fit(m, Y_past, Y_future, t_past, t_future)
 pred <- predict(m, Y_past_new)
 ```
 
+## Demo
+
+A complete example (synthetic data with two covariates, training,
+prediction, plots and test metrics) is installed with the package:
+
+```r
+library(funcastR)
+source(system.file("examples/demo.R", package = "funcastR"))
+```
+
 ## Using your own Python
 
 If automatic setup fails (e.g. restricted network), install `funcast` in a
